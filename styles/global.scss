@@ -440,7 +440,7 @@ html {
 
 
 .Header {
-    background-image: url(/img/header_img.png);
+    background-image: url('/img/header_img.png');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -683,6 +683,7 @@ html {
 
         .swiper-button-prev {
             background-image: url(/img/recom_left.png);
+            // background-image: url('/public/img/recom_left.png');
             width: 50px;
             height: 50px;
 
